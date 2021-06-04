@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    <title>Movies</title>
+{% endblock %}
+
+{% block content %}
+<center>
+   <li><li>
+    <H1>Recommended movies</H1>
+    <marquee behavior="" direction=""><img src="{% static 'images/billa.jfif' %}" alt="">
+    <img src="{% static 'images/mangatha.jfif' %}" alt="">
+<img src="{% static 'images/vedhalam.jfif' %}" alt=""></marquee>
+</li><br>
+<li>
+    <h1>Romantic movies</h1>
+    <img src="{% static 'images/minele.jfif' %}" alt="">
+
+
+</li><br>
+<li>
+    <h1>Action and adventure movies</h1>
+    <img src="{% static 'images/national.jfif' %}" alt="">
+</li><br>
+<li>
+    <h1>Sci-fi movies</h1>
+    <img src="{% static 'images/infinity.jfif' %}" alt="">
+
+</li></li> 
+</center>
+{% endblock %}

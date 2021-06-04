@@ -1,0 +1,20 @@
+<!-- NAV BAR -->
+<!-- NAV BAR -->
+<ul class="nav nav-tabs" id="ji"
+>
+ <li class="nav-item">
+  {% if request.path == "" %}
+  <a class="nav-link active" aria-current="page" href="{% url 'sample' %}">HOME</a>
+  {% else %}
+  <a class="nav-link eactiv" aria-current="page" href="{% url 'sample' %}">HOME</a>
+  {% endif %}
+  
+  
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{% url 'sample1' %}">Movies</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="{% url 'sample2' %}">TV shows</a>
+</li>
+</ul>
